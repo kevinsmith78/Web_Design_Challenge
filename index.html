@@ -12,28 +12,29 @@
 
 <body>
     <!--Navbar-->
-    <div class="navigation">
+     <div class="row">
+         <div class="col-1 col homebtn">
+         </div>   
+        <div class="col col menubuttons divtop">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand font-weight-bold" style="background-color:lightseagreen;" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarNavDropdown"
+        <a class="navbar-brand d-inline p-2 ml-5 bg-info text-white mb-0 pb-0" href="index.html">Lattitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>      
+            <span class="navbar-toggler-icon"></span>      
         </button>
             
         
-        <!--Collect the information to add functionality to drop down menus-->
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto"> 
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Plots
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarNavDropdown">
-                        <li><a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                        <li><a class="dropdown-item" href="wind.html">Wind Speed(MPH)</a>
-                        <li><a class="dropdown-item" href="temp.html"> Temperature</a>
-                    </div>
+        <!--Collect the information to add functionality to drop down menus--> 
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarNavDropdown">
+                    <a class="dropdown-item" href="humidity.html">Humidity</a>
+                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                    <a class="dropdown-item" href="wind.html">Wind Speed(MPH)</a>
+                    <a class="dropdown-item" href="temp.html"> Temperature</a>
+                </div>
                 </li>
                     <li class="nav-item">
                     <a class="nav-link" href="comparisons.html">Comparison</a>
@@ -45,8 +46,12 @@
             </div>
             </nav>
         </div>
+    </div>
+</div>
         <!--Content-->
-            <div class="row">
+        <div class="container">
+            <br>   
+        <div class="row">
                 <div class="col-lg-7 col-md-12">
             <br>
             <h1>Summary:Latitude vs.X</h1>
@@ -61,20 +66,30 @@
                 any trends and correlations witnessed.</p>
             <hr>
         </div>
-            <div class="row">
-                <div class="col col-3 col-md-4 divbdy">
+         <div class="col-lg-5 col-md-12">
             <br>
-            <h2> Visuilizations</h2>
+            <h2> Visualizations</h2>
             <hr>
                 <div class="row">
-                    <div class="col col-md-6">
-                        <a href=""
-
-
-                <a href="temp.html">
-                    <img class="panel" src="LatitudeTemp.png" alt="Max Temperature Image">
-                </a>
+                    <div class="col-md-6 col-md-3">
+                        <a href="temp.html"><img src="LatitudeTemp.png" alt="Latitude vs. Temperature"></a>
+                        </div>
+                    <div class="col-lg-6 col-md-3">
+                        <a href="humidity.html"><img src="Latitudevshumidity.png" alt="Latitude vs. Humidity"></a>
+                        </div>
+                    <div class="col-lg-6 col-md-3">
+                        <a href="cloudiness.html"><img src="Latitudevscloud.png" alt="Latitude vs. Cloudiness"></a>
+                    </div>
+                    <div class="col-lg-6 col-md-3">
+                        <a href="wind.html"><img src="Latitudevswind.png" alt="Latitude cs WindSpeed"></a>
+                        <div>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <br>
+        <div>    
+            
 
 
         <!--JSlinks-->
