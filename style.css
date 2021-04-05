@@ -1,131 +1,102 @@
-/* Style Elements */
-
-/* Body */
-body{
-    background-color:slategray; 
-}
-/* Navbar */
-.navbar{
-    max-height: 57px; 
-}
-.navigation .navbar-brand{
-    color: whitesmoke; 
-    margin-left: 30px; 
-    padding: inherit; 
-    font-weight: bold; 
-    background-color:rgb(10, 20, 20);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.navbar{
-    background-color: white; 
-    font-size: 20px; 
-}
-.active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color: slategray;
-}
-.dropdown-item{
-    color: #6D8092 
-}
-.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:#E7E7E7; 
-}
-a{
-    color: #6D8092;
-    font-size: 15px; 
-}
-.nav-link:hover{
-    background-color:slategray; 
-   }
-
-.navbar-brand:hover{
-color: rgb(175, 175, 175) 
-}
-
-/* Media Queries */
-@media(max-width: 992px){
-    .navbar-expand-lg{
-    background-color: #094414; 
-    }
-    .navbar{
-        max-height: none; 
-        padding: inherit;
-    }
-    .navbar div{
-        margin: inherit; 
-        background-color: rgb(167, 29, 29);  
-    }
-    .navbar-brand{
-        padding: 10px; 
-    }
-    
-    button{
-        margin-right: 30px; 
-    }
-    button:focus {
-    
-        outline: 1px dotted;
-        outline: 5px auto -webkit-focusring-color;
-        
-        }
-
-/* Img */
-img{
-    width:100%;
-    height:100%;
-}
-.active, .panel:hover{
-    border-color:#094414;
-    border-style: solid; 
-    
-}
-.vizualization{
-    width:50% ;
-    height:50% ;
-}
-
-/* Title */
-.title{
-    color: #094414;  
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bolder; 
-    padding-top: 25px; 
-}
-/* Paragraph */
-p{
- color: whitesmoke;
- font-family: Arial, Helvetica, sans-serif;
- font-size: 17px; 
-}
-/* Box Class */
-.box {
-    margin-top: 60px; 
-    margin-bottom: 62px; 
-    padding: 10px 20px 15px; 
-    color:black;
-    background-color: white; 
-
+ody{
+    background-color: lightgray;
   }
-/* Table */
-.table{
-    font-size: 15px; 
-    border-top-color: white;
-}
-/* Footer */
-.footer{
-background-color: #666666; 
-border-top-style: solid; 
-border-top-width: 5px; 
-border-top-color: #094414;
-color: white; 
-min-height: 55px; 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 15px; 
-text-align: center; 
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-padding-top: 15px; 
-}
-
-}
+  
+  .plot-content {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      padding: 10px 30px 5px;
+      color: black;
+      background-color: white;
+  }
+  
+  
+  
+  .visplot-content {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      padding: 10px 30px 40px;
+      color: black;
+      background-color: white;
+  }
+  
+  .compplot-content {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      margin-right: 40px;
+      margin-left: 40px;
+      padding: 10px 30px 40px;
+      color: black;
+      background-color: white;
+  }
+  .plot-header {
+      padding-top: 15px; 
+      padding-left: 4px;
+      color:lightseagreen(40, 164, 180);
+      font-size: 26px;
+      font-weight: bold;
+      font-family: Georgia, Times, "Times New Roman", serif;
+  }
+  
+    
+  #landing-image {
+      float: left;
+      width: 50%;
+      height: 50%;
+    }
+  
+    #other-image {
+      width: 100%;
+      height: 100%;
+    }
+  
+  #vis-image {
+      float: left;
+      width: 100%;
+      height: 100%;
+  }
+  
+  #comp-image {
+      float: left;
+      width: 90%;
+      height: 90%;
+  }
+  .table1{
+      text-align: center;
+  }
+  
+  
+  .tablehead {
+      word-wrap: normal;
+  }
+  
+  .table-content {
+      margin: 30px 10px 10px 10px;
+      border: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+      color: black;
+      background-color: white;
+  }
+  
+  tr:nth-child(odd) {
+      background-color: #f2f2f2;
+    }
+  .comp-title {
+      padding:  10px 0px 0px 0px;
+      text-align: center;
+      margin-bottom: 0px;
+      color: rgb(40, 164, 180);
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Georgia, Times, "Times New Roman", serif;
+  }
+  
+  @media screen and (max-width: 600px) {
+      .topnav.responsive {position: relative;}
+      .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+  
+  
