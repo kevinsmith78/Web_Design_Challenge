@@ -24,7 +24,7 @@ body{
     background-color:lightseagreen; 
 }
 .dropdown-item{
-    color: #6D8092 !important; 
+    color: #6D8092 ; 
 }
 .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
     background-color:lightseagreen 
@@ -34,17 +34,17 @@ a{
     font-size: 15px; 
 }
 .nav-link:hover{
-    background-color:#E7E7E7 !important;
+    background-color:#E7E7E7 ;
    }
 
 .navbar-brand:hover{
-color: rgb(175, 175, 175) !important;
+color: rgb(175, 175, 175);
 }
 
 /* Media Queries */
 @media(max-width: 992px){
     .navbar-expand-lg{
-    background-color: #094414 !important;
+    background-color: #094414 ;
     }
     .navbar{
         max-height: none; 
@@ -107,7 +107,7 @@ p{
 /* Table */
   .table{
     font-size: 15px; 
-    border-top-color: white !important; 
+    border-top-color: white 
 }
 /* Footer */
 footer{
